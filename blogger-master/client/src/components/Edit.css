@@ -1,0 +1,57 @@
+
+.edit h1{
+    text-align: center;
+    color:#555;
+    letter-spacing: 0.2rem;
+    font-size:25px;
+    font-style: italic;
+    margin:20px 0;
+    text-decoration: underline;
+}
+
+.edit form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: rgb(239,239,240);
+    box-shadow: 0 0 2px 1px dodgerblue;
+    padding:15px;
+    width:400px;
+    margin:0 auto;
+}
+
+.edit form input{
+    padding: 7px;
+    border: 1px solid dodgerblue;
+}
+
+.edit form .inputs{
+    margin-bottom: 10px;
+}
+
+.edit form button{
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    padding:5px;
+    outline: none;
+    border:none;
+    color:white;
+    letter-spacing: 0.1rem;
+}
+
+.edit form button:hover{
+ background-color: rgb(64,155,247);
+
+}
+
+
+.backBtn{
+    background: crimson !important;
+    width:100%;
+}
+
+.backBtn:hover{
+    background: rgb(214,53,85) !important;
+}
